@@ -1,0 +1,37 @@
+---
+title: "Make a coffee"
+subtitle: "with `protopackage`"
+author: "Florent Chuffart"
+date: "`r Sys.Date()`"
+output: 
+  rmarkdown::html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    number_sections: true
+vignette: >
+  %\VignetteIndexEntry{protopackage}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+
+```{r echo=FALSE}
+knitr::opts_chunk$set(collapse=TRUE, comment = "#>", fig.width=9, fig.height=6, eval=TRUE, echo=TRUE, results="verbatim")
+```
+
+# A coffee pleased
+
+```{r}
+coffee = protopackage::coffee
+mug = protopackage::make_coffee(coffee)
+print(mug)
+```
+
+
+# Session Information
+
+```{r, results="verbatim"}
+sessionInfo()
+```
+

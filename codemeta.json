@@ -1,0 +1,32 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "license": "https://spdx.org/licenses/GPL-3.0",
+    "codeRepository": "https://github.com/fchuffar/protopackage",
+    "dateCreated": "2016-01-26",
+    "name": "protopackage",
+    "description": "An empty R package build as a prototype. It illustrates development practices in R: documentation, literate programming, testing, versioning, continuous integration.",
+    "applicationCategory": "Statistiques",
+    "programmingLanguage": [
+        "R"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Florent",
+            "familyName": "Chuffart",
+            "email": "florent.chuffart@gmail.com",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Inserm"
+            }
+        }
+    ],
+    "contributor": [
+        {
+            "@type": "Person",
+            "givenName": "Magali",
+            "familyName": "Richard"
+        }
+    ]
+}
